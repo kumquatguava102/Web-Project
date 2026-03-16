@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Resale | Shop All</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>GRAILED & FOUND</h1> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop All</a></li>
+                <li><a href="about.html">Authentication</a></li>
+                <li><a href="contact.html">Sell/Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="shop-page">
+        <h2 class="page-title" style="text-align: center; margin: 30px 0;">Shop All Inventory</h2>
+        
+        <div class="shop-container">
+            <aside class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Outerwear</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Footwear</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                </ul>
+
+                <div id="condition-guide">
+                    <h3>Condition Guide</h3>
+                    <table>
+                        <tr>
+                            <th>Grade</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>DS</td>
+                            <td>Deadstock / Brand New</td>
+                        </tr>
+                        <tr>
+                            <td>VNDS</td>
+                            <td>Very Near Deadstock</td>
+                        </tr>
+                        <tr>
+                            <td>Used</td>
+                            <td>Shows signs of wear</td>
+                        </tr>
+                    </table>
+                </div>
+            </aside>
+
+            <section class="product-grid">
+                
+                <div class="product-card sold-out-container">
+                    <div class="sold-out-badge">SOLD OUT</div>
+                    <img src="images/rick-owens.jpg" alt="Rick Owens Geobaskets" class="product-image" style="opacity: 0.5;">
+                    <h4>Rick Owens Geobaskets (Size 44)</h4>
+                    <p>Condition: Used</p>
+                    <p style="text-decoration: line-through; color: #888;">$850</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/ksubi.jpg" alt="Ksubi Denim" class="product-image">
+                    <h4>Ksubi Chitch Denim (Size 32)</h4>
+                    <p>Condition: VNDS</p>
+                    <p>$180</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/sp5der.jpg" alt="Sp5der Web Hoodie" class="product-image">
+                    <h4>Sp5der Web Hoodie (Size L)</h4>
+                    <p>Condition: DS</p>
+                    <p>$220</p>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #ddd;">
+            &copy; 2026 Grailed & Found. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
